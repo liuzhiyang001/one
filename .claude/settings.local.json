@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(mkdir -p \"第一卷：裂土求生/第一部分：十星降临\")",
+      "Bash(mkdir -p \"第一卷：裂土求生/第二部分：觉醒之路\")",
+      "Bash(mkdir -p \"第一卷：裂土求生/第三部分：结识伙伴\")",
+      "Bash(mkdir -p \"第一卷：裂土求生/第四部分：首次逆袭\")",
+      "Bash(mkdir -p \"第一卷：裂土求生/第五部分：卷末\")",
+      "Bash(mkdir *)"
     ]
   }
 }
