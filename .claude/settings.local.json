@@ -11,7 +11,14 @@
       "Bash(mkdir -p \"第一卷：裂土求生/第三部分：结识伙伴\")",
       "Bash(mkdir -p \"第一卷：裂土求生/第四部分：首次逆袭\")",
       "Bash(mkdir -p \"第一卷：裂土求生/第五部分：卷末\")",
-      "Bash(mkdir *)"
+      "Bash(mkdir *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "WebFetch(domain:zuozhe.qimao.com)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python upload_to_qimao.py)",
+      "Bash(python test_browser.py)",
+      "Bash(python test_browser2.py)"
     ]
   }
 }
