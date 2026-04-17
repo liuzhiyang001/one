@@ -18,7 +18,8 @@
       "Bash(pip install *)",
       "Bash(python upload_to_qimao.py)",
       "Bash(python test_browser.py)",
-      "Bash(python test_browser2.py)"
+      "Bash(python test_browser2.py)",
+      "Bash(python -c ' *)"
     ]
   }
 }
