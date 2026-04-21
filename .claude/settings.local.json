@@ -24,7 +24,9 @@
       "Bash(python *)",
       "Bash(git -C \"E:/application/book/one\" add .claude/skills/liexing-xiandao-writing/references/writing-style-guide.md)",
       "Bash(git -C \"E:/application/book/one\" commit -m \"feat: add writing-style-guide.md for de-AI style\")",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生）\\\\04-第四部分（首次逆袭）\\\\\")",
+      "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生）\\\\04-第四部分（首次逆袭）\")"
     ]
   }
 }
