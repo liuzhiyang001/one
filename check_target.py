@@ -29,8 +29,9 @@ def count_words():
         with open(f, 'r', encoding='utf-8') as fp:
             content = fp.read()
             # 去掉章节末尾的【本章要点】部分计算正文字数
-            if '---' in content:
-                body = content.split('---')[0]
+            # 使用rsplit从右边分割，只分割一次，避免与文中场景转换分隔符冲突
+            if '---' in content and '【本章要点】' in content:
+                body = content.rsplit('---', 1)[0]
             else:
                 body = content
             chars = len(body.strip())

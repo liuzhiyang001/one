@@ -19,7 +19,12 @@
       "Bash(python upload_to_qimao.py)",
       "Bash(python test_browser.py)",
       "Bash(python test_browser2.py)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import os; f='第一卷（裂土求生）/04-第四部分（首次逆袭）/第78章 营地头目.txt'; c=open\\(f,'r',encoding='utf-8'\\).read\\(\\); b=c.split\\('---'\\)[0]; l=b.split\\('\\\\n'\\); b='\\\\n'.join\\(l[1:]\\) if l[0].startswith\\('第一卷'\\) else b; print\\('正文字数:',len\\(b.strip\\(\\)\\),'字'\\)\")",
+      "Bash(python *)",
+      "Bash(git -C \"E:/application/book/one\" add .claude/skills/liexing-xiandao-writing/references/writing-style-guide.md)",
+      "Bash(git -C \"E:/application/book/one\" commit -m \"feat: add writing-style-guide.md for de-AI style\")",
+      "Bash(git *)"
     ]
   }
 }
