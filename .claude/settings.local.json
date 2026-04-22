@@ -26,7 +26,11 @@
       "Bash(git -C \"E:/application/book/one\" commit -m \"feat: add writing-style-guide.md for de-AI style\")",
       "Bash(git *)",
       "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生）\\\\04-第四部分（首次逆袭）\\\\\")",
-      "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生）\\\\04-第四部分（首次逆袭）\")"
+      "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生）\\\\04-第四部分（首次逆袭）\")",
+      "Bash(awk '{print $1}')",
+      "Bash(python check_target.py)",
+      "Bash(python3 check_target.py)",
+      "Bash(dir E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生） *)"
     ]
   }
 }
