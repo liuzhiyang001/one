@@ -30,7 +30,12 @@
       "Bash(awk '{print $1}')",
       "Bash(python check_target.py)",
       "Bash(python3 check_target.py)",
-      "Bash(dir E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生） *)"
+      "Bash(dir E:\\\\application\\\\book\\\\one\\\\第一卷（裂土求生） *)",
+      "Bash(powershell -Command \"\\(Get-Content 'E:\\\\application\\\\book\\\\one\\\\第二卷（灵域争锋）\\\\02-第二部分（修炼提升）\\\\第139章 徐家来人.txt' -Raw\\).Length\")",
+      "Bash(dir \"E:\\\\application\\\\book\\\\one\\\\第二卷（灵域争锋）\\\\03-第三部分（势力博弈）\")",
+      "Bash(cmd.exe *)",
+      "Bash(powershell *)",
+      "Bash(dir E:\\\\application\\\\book\\\\one *)"
     ]
   }
 }
